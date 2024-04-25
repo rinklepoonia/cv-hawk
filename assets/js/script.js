@@ -3,6 +3,17 @@ function openNav() {
     document.body.classList.toggle("overFlowHidden");
     document.querySelector(".menuIcon").classList.toggle("cross")
 }
+// ========hero-slider
+$('.hero_slider').slick({
+    dots: true,
+    arrows: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // variableWidth: true,
+});
+
 // ========them-slider
 $('.theam_slider').slick({
     dots: true,

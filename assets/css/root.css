@@ -7,9 +7,19 @@
     --fs-52: 40px;
     /* color */
     --clr-black: #000000;
+    --clr-black10: #E6E6E6;
     --clr-lightWhite: #FAFAFA;
     --clr-lightRed: #F36A3E;
+    --clr-lightBlack: #010101;
+    --clr-greyWhite: #F9F9F9;
+}
 
+.bg-gryWhite {
+    background: var(--clr-greyWhite);
+}
+
+.color-lightblack {
+    color: var(--clr-lightBlack);
 }
 
 .color-lightRed {

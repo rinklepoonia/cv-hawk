@@ -75,6 +75,22 @@
     opacity: 70%;
 }
 
+.cross span:nth-child(1) {
+    transform: rotate(42deg) translateY(16px);
+    transition: 300ms linear;
+}
+
+.cross span:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 0.5ms linear;
+}
+
+.cross span:nth-child(3) {
+    transform: rotate(-43deg) translateY(-15px);
+    transition: 300ms linear;
+}
+
 /* ========hero=========== */
 .gap_30 {
     gap: 30px;
@@ -90,6 +106,10 @@
 
 .mb_20 {
     margin-bottom: 20px;
+}
+
+.mt_35 {
+    margin-top: 35px;
 }
 
 .comn_btn {
@@ -196,14 +216,38 @@
     color: var(--clr-lightRed);
 }
 
+.slick-dots li.slick-active {
+    background: var(--clr-lightRed);
+    width: 23px;
+    height: 5px;
+}
+
+.slick-dots li button:before {
+    content: unset;
+}
+
+.slick-dots li {
+    content: unset;
+    width: 16px;
+    height: 5px;
+    background: var(--clr-black10);
+    margin: 4px;
+    border-radius:6px;
+    transition: all 300ms linear;
+}
+
 /* ===========themes============= */
+.py_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .max_w_499 {
     max-width: 499px;
 }
 
 .themes_box {
     box-shadow: 0px 4px 30px 0px #0000000A;
-    /* border: 1px solid #F36A3E66; */
     border: 1px solid #00000008;
     max-width: 156px;
     height: 141px;
@@ -213,6 +257,27 @@
 .slick-track {
     display: flex;
     gap: 16px;
+}
+
+/* ===============powerflul============= */
+.py_80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.powerfulll_cubePosition {
+    top: 7%;
+    right: 5%;
+}
+
+.position_orangeBall_powerfull {
+    top: 14%;
+    left: 5%;
+}
+
+.position_roundShap_powerfull {
+    bottom: 14%;
+    left: 46%;
 }
 
 
@@ -249,7 +314,18 @@
     }
 }
 
+@media (max-width:768px) {
+    .max_w_29 {
+        max-width: 29px;
+    }
+}
+
 @media (min-width:768px) {
+    .py_md_120 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
     .max_w_565 {
         max-width: 565px;
     }
@@ -258,7 +334,15 @@
         flex-grow: 1;
     }
 
-    min_vh_100 .max_w_766 {
+    .d_flex {
+        display: flex;
+    }
+
+    .min_vh_100 {
+        min-height: 100vh;
+    }
+
+    .max_w_766 {
         max-width: 766px;
     }
 
@@ -305,5 +389,20 @@
 
     .max_w_20 {
         max-width: 20px;
+    }
+}
+
+@media (min-width:992px) {
+    .max_w_524 {
+        max-width: 524px;
+    }
+
+    .max_w_487 {
+        max-width: 487px;
+    }
+
+    .py_lg_165_160 {
+        padding-top: 165px;
+        padding-bottom: 160px;
     }
 }
