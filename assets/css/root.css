@@ -1,0 +1,66 @@
+:root {
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-40: 40px;
+    --fs-52: 40px;
+    /* color */
+    --clr-black: #000000;
+    --clr-lightWhite: #FAFAFA;
+    --clr-lightRed: #F36A3E;
+
+}
+
+.color-lightRed {
+    color: var(--clr-lightRed);
+}
+
+.color-lightWhite {
+    color: var(--clr-lightWhite);
+}
+
+.color-black {
+    color: var(--clr-black);
+}
+
+.text-16 {
+    font-size: var(--fs-16);
+}
+
+.text-20 {
+    font-size: var(--fs-20);
+}
+
+.text-22 {
+    font-size: var(--fs-22);
+}
+
+.text-24 {
+    font-size: var(--fs-24);
+}
+
+.text-40 {
+    font-size: var(--fs-40);
+}
+
+.text-52 {
+    font-size: var(--fs-52);
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-52: 52px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* --fs-16: 16px; */
+        /* --fs-20: 20px; */
+        /* --fs-22: 22px; */
+        /* --fs-24: 24px; */
+        /* --fs-40: 40px; */
+        /* --fs-52: 52px; */
+    }
+}

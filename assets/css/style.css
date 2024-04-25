@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(../css/root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.ff_rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* ===========font-weight========== */
+.fw-normal {
+    font-weight: 400 !important;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+/* ===========line-height========== */
+.lh-19 {
+    line-height: 19px;
+}
+
+.lh-23 {
+    line-height: 23px;
+}
+
+.lh-25 {
+    line-height: 25px;
+}
+
+.lh-26 {
+    line-height: 26px;
+}
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.lh-47 {
+    line-height: 47px;
+}
+
+.lh-53 {
+    line-height: 53px;
+}
+
+.lh-62 {
+    line-height: 62px;
+}
+
+.container_1140 {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opacity_70 {
+    opacity: 70%;
+}
+
+/* ========hero=========== */
+.gap_30 {
+    gap: 30px;
+}
+
+.gap_41 {
+    gap: 41px;
+}
+
+.gap_17 {
+    gap: 17px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.comn_btn {
+    padding: 17px 38px;
+    background: var(--clr-lightRed);
+    border-radius: 41px;
+    border: 1px solid transparent;
+    transition: all 0.1s linear;
+}
+
+.comn_btn:hover {
+    background: transparent;
+    color: var(--clr-lightRed);
+    border: 1px solid var(--clr-lightRed);
+}
+
+.hero_btn {
+    padding: 17px 38px;
+    border-radius: 41px;
+    border: 1px solid var(--clr-lightRed);
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.hero_btn:hover {
+    background: var(--clr-lightRed);
+    color: var(--clr-lightWhite);
+}
+
+.position_page1 {
+    top: 9%;
+    left: 40px;
+}
+
+.position_page2 {
+    top: 9%;
+    right: 55px;
+}
+
+.position_page3 {
+    bottom: 1%;
+    left: 85px;
+}
+
+.position_page4 {
+    bottom: 1%;
+    right: 85px;
+}
+
+.position_orngBall {
+    top: 10%;
+    right: 73%;
+}
+
+.hero_ellip {
+    width: 518px;
+    height: 95px;
+    background: var(--clr-lightRed);
+}
+
+.position_ellipHero {
+    top: 17%;
+    right: 25%;
+    opacity: 54%;
+    filter: blur(74px);
+}
+
+.position_left_smalImg {
+    top: 36%;
+    left: 18%;
+}
+
+.position_right_smalImg {
+    top: 26%;
+    right: 5%;
+}
+
+.position_heroBottom_img {
+    bottom: 10%;
+    right: 43%;
+}
+
+.nav_links {
+    position: relative;
+}
+
+.nav_links::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--clr-lightRed);
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 0;
+    transition: all 0.1s linear;
+}
+
+.nav_links:hover::after {
+    width: 100%;
+}
+
+.nav_links:hover {
+    color: var(--clr-lightRed);
+}
+
+@media (max-width:991.99px) {
+    .overFlowHidden {
+        overflow: hidden;
+    }
+
+    .menulist {
+        width: 100%;
+        height: 100vh;
+        height: 100%;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 300ms linear;
+        z-index: 3;
+        background: white;
+    }
+
+    .menuIcon {
+        width: 40px;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+
+    .menuIcon>span {
+        height: 3px;
+        background: black;
+        transition: all 300ms linear;
+    }
+}
+
+@media (min-width:768px) {
+    .max_w_565 {
+        max-width: 565px;
+    }
+
+    .flex_grow_1 {
+        flex-grow: 1;
+    }
+
+    .max_w_766 {
+        max-width: 766px;
+    }
+
+    .mb_14 {
+        margin-bottom: 14px;
+    }
+
+    .position_orngBall {
+        top: 35%;
+        right: 62%;
+    }
+
+    .position_right_smalImg {
+        top: 60%;
+        right: 5%;
+    }
+
+    .position_left_smalImg {
+        top: 50%;
+        left: 10%;
+    }
+
+    .position_ellipHero {
+        top: 44%;
+        right: 39%;
+        opacity: 51%;
+        filter: blur(74px);
+    }
+
+    .lh-md-62 {
+        line-height: 62px;
+    }
+
+    .mb_lg_40 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .py_30_35 {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+
+    .max_w_20 {
+        max-width: 20px;
+    }
+}
