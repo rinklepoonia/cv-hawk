@@ -475,6 +475,12 @@
 .border_bottom {
     border: 1px solid var(--clr-lightWhite20);
 }
+.zoom{
+    transition: all 0.2s linear;
+}
+.zoom:hover{
+    scale: 1.1;
+}
 
 @media (max-width:991.99px) {
     .overFlowHidden {
