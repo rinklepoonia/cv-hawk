@@ -410,10 +410,12 @@
 .mb_40 {
     margin-bottom: 40px;
 }
-.mb_33{
+
+.mb_33 {
     margin-bottom: 33px;
 }
-.gap_32{
+
+.gap_32 {
     gap: 32px;
 }
 
@@ -424,7 +426,8 @@
 .max_w_615 {
     max-width: 615px;
 }
-.max_w_373{
+
+.max_w_373 {
     max-width: 373px;
 }
 
@@ -434,6 +437,7 @@
     height: 381px;
     background: var(--clr-lightRed);
     border-radius: 21px;
+    transform: translateY(21%);
 }
 
 .red_box_btn {
@@ -448,21 +452,27 @@
     background: var(--clr-black10);
     scale: 0.9;
 }
+
 /* ==================footer============ */
-.gap_6{
-    gap: 6px;
-}
-.py_20{
+
+.py_20 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.mt_30{
+
+.mt_30 {
     margin-top: 30px;
 }
-.pt_71{
+
+.pt_71 {
     padding-top: 71px;
 }
-.border_bottom{
+
+.footer_rowGap_30 {
+    row-gap: 30px;
+}
+
+.border_bottom {
     border: 1px solid var(--clr-lightWhite);
 }
 
@@ -509,6 +519,16 @@
     .w_40 {
         max-width: 40px;
     }
+
+    .ps_lg_0 {
+        padding-left: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.99px) {
+    .justify_end {
+        justify-content: center;
+    }
 }
 
 @media (min-width:576px) {
@@ -524,6 +544,10 @@
         background-size: 241px 9px;
         background-repeat: no-repeat;
         display: block;
+    }
+
+    .gap_6 {
+        gap: 6px;
     }
 }
 
@@ -542,7 +566,8 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .pt_md_98{
+
+    .pt_md_98 {
         padding-top: 98px;
     }
 
@@ -557,8 +582,13 @@
     .mb_md_20 {
         margin-bottom: 20px;
     }
-    .mt_md_50{
+
+    .mt_md_50 {
         margin-top: 50px;
+    }
+
+    .mt_md_80 {
+        margin-top: 80px;
     }
 
     .max_w_565 {
@@ -632,10 +662,14 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767.99px) {
     .py_30_114 {
         padding-top: 30px;
         padding-bottom: 114px;
+    }
+
+    .ps_md_0 {
+        padding-left: 0;
     }
 
     .max_w_29 {
@@ -667,8 +701,13 @@
     .mt_11 {
         margin-top: 11px;
     }
-    .mt_lg_69{
+
+    .mt_lg_69 {
         margin-top: 69px;
+    }
+
+    .mt_lg_83 {
+        margin-top: 83px;
     }
 
     .mb_lg_40 {
@@ -677,6 +716,10 @@
 
     .mb_lg_50 {
         margin-bottom: 50px;
+    }
+
+    .mb_lg_33 {
+        margin-bottom: 33px;
     }
 
     .py_lg_165_160 {
@@ -693,7 +736,8 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    .pt_lg_208{
+
+    .pt_lg_208 {
         padding-top: 208px;
     }
 
@@ -718,5 +762,9 @@
         min-height: 11px;
         left: 0;
         bottom: -11px;
+    }
+
+    .red_box {
+        transform: translateY(50%);
     }
 }
