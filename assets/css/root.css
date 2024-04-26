@@ -11,7 +11,15 @@
     --clr-lightWhite: #FAFAFA;
     --clr-lightRed: #F36A3E;
     --clr-lightBlack: #010101;
+    --clr-footerBlack: #070707;
     --clr-greyWhite: #F9F9F9;
+    --clr-lightWhite20:#383838;
+}
+.color-lightwhite20{
+    background: var(--clr-lightWhite20);
+}
+.bg_black{
+    background: var(--clr-footerBlack);
 }
 
 .bg-gryWhite {
