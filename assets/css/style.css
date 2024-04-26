@@ -679,6 +679,9 @@
     .max_w_20 {
         max-width: 20px;
     }
+    .red_box{
+        padding: 10px;
+    }
 
     .justify_content_center {
         justify-content: center;
