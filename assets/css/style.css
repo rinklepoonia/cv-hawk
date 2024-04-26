@@ -295,10 +295,32 @@
     max-width: 161px;
 }
 
+.mb_11 {
+    margin-bottom: 11px;
+}
+
 .help_rowGap {
     row-gap: 40px;
 }
 
+.ellip_property {
+    width: 165px;
+    height: 143px;
+    background: var(--clr-lightRed);
+}
+
+.top_137 {
+    top: 137px;
+}
+
+.bottom_54 {
+    bottom: 54px;
+}
+
+.blurness {
+    opacity: 45%;
+    filter: blur(120px);
+}
 
 @media (max-width:991.99px) {
     .overFlowHidden {
@@ -336,11 +358,13 @@
         max-width: 31px;
     }
 
+    .max_w_548 {
+        max-width: 548px;
+    }
+
     .w_40 {
         max-width: 40px;
     }
-
-
 }
 
 @media (min-width:576px) {
@@ -370,12 +394,24 @@
         padding-bottom: 80px;
     }
 
+    .mb_14 {
+        margin-bottom: 14px;
+    }
+
+    .mb_md_20 {
+        margin-bottom: 20px;
+    }
+
     .max_w_565 {
         max-width: 565px;
     }
 
     .max_w_556 {
         max-width: 556px;
+    }
+
+    .max_w_766 {
+        max-width: 766px;
     }
 
     .flex_grow_1 {
@@ -388,14 +424,6 @@
 
     .min_vh_100 {
         min-height: 100vh;
-    }
-
-    .max_w_766 {
-        max-width: 766px;
-    }
-
-    .mb_14 {
-        margin-bottom: 14px;
     }
 
     .position_orngBall {
@@ -426,10 +454,6 @@
 
     .lh-md-39 {
         line-height: 39px;
-    }
-
-    .mb_lg_40 {
-        margin-bottom: 40px;
     }
 }
 
@@ -469,13 +493,17 @@
         margin-top: 11px;
     }
 
+    .mb_lg_40 {
+        margin-bottom: 40px;
+    }
+
     .py_lg_165_160 {
         padding-top: 165px;
         padding-bottom: 160px;
     }
 
-    .py_lg_146_160 {
-        padding-top: 146px;
+    .py_lg_160 {
+        padding-top: 160px;
         padding-bottom: 160px;
     }
 
