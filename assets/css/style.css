@@ -39,13 +39,19 @@
     line-height: 19px;
 }
 
+.lh-21 {
+    line-height: 21px;
+}
+
+.lh-22 {
+    line-height: 22px;
+}
+
 .lh-23 {
     line-height: 23px;
 }
 
-.lh-25 {
-    line-height: 25px;
-}
+
 
 .lh-26 {
     line-height: 26px;
@@ -53,6 +59,10 @@
 
 .lh-28 {
     line-height: 28px;
+}
+
+.lh-29 {
+    line-height: 29px;
 }
 
 .lh-37 {
@@ -345,11 +355,55 @@
     left: 55%;
     z-index: -1;
 }
+
 /* ================resume-trailoring============= */
-.resum_EllipPosition{
+.resum_EllipPosition {
     right: 1%;
     top: 33%;
 }
+
+/* ==============faq============== */
+.max_w_786 {
+    max-width: 786px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid var(--clr-black10);
+    padding: 24px 0;
+}
+
+.accordion-button {
+    color: var(--clr-lightBlack) !important;
+    padding: 0;
+
+}
+
+.accordion-body {
+    padding: 0;
+    margin-top: 16px;
+}
+
+.accordion {
+    max-width: 856px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -431,6 +485,10 @@
         margin-bottom: 14px;
     }
 
+    .mb_md_40 {
+        margin-bottom: 40px;
+    }
+
     .mb_md_20 {
         margin-bottom: 20px;
     }
@@ -446,9 +504,10 @@
     .max_w_766 {
         max-width: 766px;
     }
-        .max_w_558 {
-            max-width: 558px;
-        }
+
+    .max_w_558 {
+        max-width: 558px;
+    }
 
     .flex_grow_1 {
         flex-grow: 1;
@@ -490,6 +549,14 @@
 
     .lh-md-39 {
         line-height: 39px;
+    }
+
+    .lh-md-28 {
+        line-height: 28px;
+    }
+
+    .lh-md-25 {
+        line-height: 25px;
     }
 }
 
@@ -533,6 +600,10 @@
         margin-bottom: 40px;
     }
 
+    .mb_lg_50 {
+        margin-bottom: 50px;
+    }
+
     .py_lg_165_160 {
         padding-top: 165px;
         padding-bottom: 160px;
@@ -550,6 +621,10 @@
 
     .lh-lg-47 {
         line-height: 47px;
+    }
+
+    .lh-lg-29 {
+        line-height: 29px;
     }
 
     .orng_underline2::after {
