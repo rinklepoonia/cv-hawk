@@ -340,6 +340,10 @@
         max-width: 40px;
     }
 
+
+}
+
+@media (min-width:576px) {
     .orng_underline2::after {
         content: '';
         position: absolute;
@@ -351,12 +355,7 @@
         bottom: -8px;
         background-size: 241px 9px;
         background-repeat: no-repeat;
-    }
-}
-
-@media (max-width:768px) {
-    .max_w_29 {
-        max-width: 29px;
+        display: block;
     }
 }
 
@@ -440,6 +439,10 @@
         padding-bottom: 114px;
     }
 
+    .max_w_29 {
+        max-width: 29px;
+    }
+
     .max_w_20 {
         max-width: 20px;
     }
@@ -478,6 +481,10 @@
 
     .lh-lg-47 {
         line-height: 47px;
+    }
+
+    .orng_underline2::after {
+        display: none;
     }
 
     .orng_underline1::after {
