@@ -266,9 +266,9 @@
 }
 
 /* ===============powerflul============= */
-.py_80 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+.py_40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .mx_w_78 {
@@ -288,6 +288,15 @@
 .position_roundShap_powerfull {
     bottom: 14%;
     left: 46%;
+}
+
+/* ===============will-help============ */
+.max_w_161 {
+    max-width: 161px;
+}
+
+.help_rowGap {
+    row-gap: 40px;
 }
 
 
@@ -326,6 +335,23 @@
     .max_w_31 {
         max-width: 31px;
     }
+
+    .w_40 {
+        max-width: 40px;
+    }
+
+    .orng_underline2::after {
+        content: '';
+        position: absolute;
+        background-image: url(../images/png/ornge-bottom-line.png);
+        max-width: 345px;
+        width: 100%;
+        min-height: 11px;
+        left: 0;
+        bottom: -8px;
+        background-size: 241px 9px;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width:768px) {
@@ -340,8 +366,17 @@
         padding-bottom: 120px;
     }
 
+    .py_md_80 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
     .max_w_565 {
         max-width: 565px;
+    }
+
+    .max_w_556 {
+        max-width: 556px;
     }
 
     .flex_grow_1 {
@@ -408,6 +443,10 @@
     .max_w_20 {
         max-width: 20px;
     }
+
+    .justify_content_center {
+        justify-content: center;
+    }
 }
 
 @media (min-width:992px) {
@@ -423,12 +462,32 @@
         max-width: 499px;
     }
 
+    .mt_11 {
+        margin-top: 11px;
+    }
+
     .py_lg_165_160 {
         padding-top: 165px;
         padding-bottom: 160px;
     }
 
+    .py_lg_146_160 {
+        padding-top: 146px;
+        padding-bottom: 160px;
+    }
+
     .lh-lg-47 {
         line-height: 47px;
+    }
+
+    .orng_underline1::after {
+        content: '';
+        position: absolute;
+        background-image: url(../images/png/ornge-bottom-line.png);
+        max-width: 345px;
+        width: 100%;
+        min-height: 11px;
+        left: 0;
+        bottom: -11px;
     }
 }
