@@ -473,7 +473,7 @@
 }
 
 .border_bottom {
-    border: 1px solid var(--clr-lightWhite);
+    border: 1px solid var(--clr-lightWhite20);
 }
 
 @media (max-width:991.99px) {
