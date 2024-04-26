@@ -16,7 +16,8 @@
 .opacity_80 {
     opacity: 80%;
 }
-.opacity_90{
+
+.opacity_90 {
     opacity: 90%;
 }
 
@@ -324,26 +325,31 @@
     opacity: 45%;
     filter: blur(120px);
 }
+
 /* ============professionly-designed========== */
-.py_40{
+.py_40 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.mb_10{
+
+.mb_10 {
     margin-bottom: 10px;
 }
-.max_w_558{
-    max-width: 558px;
-}
-.gap_9{
+
+.gap_9 {
     gap: 9px;
 }
-.profession_ellipPosition{
+
+.profession_ellipPosition {
     top: 42%;
     left: 55%;
     z-index: -1;
 }
-
+/* ================resume-trailoring============= */
+.resum_EllipPosition{
+    right: 1%;
+    top: 33%;
+}
 @media (max-width:991.99px) {
     .overFlowHidden {
         overflow: hidden;
@@ -415,7 +421,8 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .py_md_80{
+
+    .py_md_80 {
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -439,6 +446,9 @@
     .max_w_766 {
         max-width: 766px;
     }
+        .max_w_558 {
+            max-width: 558px;
+        }
 
     .flex_grow_1 {
         flex-grow: 1;
@@ -532,7 +542,8 @@
         padding-top: 160px;
         padding-bottom: 160px;
     }
-    .py_lg_100{
+
+    .py_lg_100 {
         padding-top: 100px;
         padding-bottom: 100px;
     }
