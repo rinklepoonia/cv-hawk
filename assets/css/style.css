@@ -370,7 +370,7 @@
     top: 33%;
 }
 
-/* =================slider============= */
+/* =================client-slider============= */
 .max_w_321 {
     max-width: 321px;
 }
@@ -394,6 +394,11 @@
 
 .gap_10 {
     gap: 10px;
+}
+.position_clientEllip{
+    top: -57px;
+    left: 0;
+    z-index: -1;
 }
 
 .slider_content_box {
@@ -823,7 +828,7 @@
 
     .position_clientImg {
         top: 8%;
-        left: 34%;
+        left: 36%;
     }
 
     .lh-md-25 {
