@@ -1,5 +1,6 @@
 :root {
     --fs-16: 14px;
+    --fs16: 14px;
     --fs-20: 16px;
     --fs-22: 22px;
     --fs-24: 24px;
@@ -7,18 +8,22 @@
     --fs-52: 40px;
     /* color */
     --clr-black: #000000;
+    --clr-white:#FFFFFF;
+    --clr-shadowSlider:#00000012;
     --clr-black10: #E6E6E6;
     --clr-lightWhite: #FAFAFA;
     --clr-lightRed: #F36A3E;
     --clr-lightBlack: #010101;
     --clr-footerBlack: #070707;
     --clr-greyWhite: #F9F9F9;
-    --clr-lightWhite20:#383838;
+    --clr-lightWhite20: #383838;
 }
-.color-lightwhite20{
+
+.color-lightwhite20 {
     background: var(--clr-lightWhite20);
 }
-.bg_black{
+
+.bg_black {
     background: var(--clr-footerBlack);
 }
 
@@ -44,6 +49,10 @@
 
 .text-16 {
     font-size: var(--fs-16);
+}
+
+.text16 {
+    font-size: var(--fs16);
 }
 
 .text-20 {
@@ -77,6 +86,7 @@
 
 @media (min-width:992px) {
     :root {
+        --fs16: 16px;
         /* --fs-16: 16px; */
         /* --fs-20: 20px; */
         /* --fs-22: 22px; */

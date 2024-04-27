@@ -364,6 +364,79 @@
     top: 33%;
 }
 
+/* =================slider============= */
+.max_w_321 {
+    max-width: 321px;
+}
+
+.py_40_30 {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.mt_31 {
+    margin-top: 31px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.mt_43 {
+    margin-top: 43px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.slider_content_box {
+    box-shadow: 0px 18px 59px 0px var(--clr-shadowSlider);
+    background: var(--clr-white);
+    max-width: 323px;
+    padding: 15px 18px;
+    border-radius: 10px;
+}
+
+.position_sliderCone {
+    bottom: -28px;
+    left: 23px;
+}
+
+.outerBox {
+    width: 41.69px;
+    height: 41.69px;
+    border: 1.42px solid var(--clr-lightRed);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.outerBox:hover {
+    background: var(--clr-lightRed);
+}
+
+.outerBox:hover svg path {
+    fill: var(--clr-white);
+}
+
+.position_prev {
+    z-index: 3;
+    top: 82%;
+    left: 35%;
+}
+
+.position_next {
+    z-index: 3;
+    top: 82%;
+    right: 38%;
+}
+
+.position_clientImg {
+    top: 1%;
+    left: 56%;
+}
+
 /* ==============faq============== */
 .max_w_786 {
     max-width: 786px;
@@ -392,7 +465,6 @@
 .accordion-button {
     color: var(--clr-lightBlack) !important;
     padding: 0;
-
 }
 
 .accordion-body {
@@ -475,10 +547,12 @@
 .border_bottom {
     border: 1px solid var(--clr-lightWhite20);
 }
-.zoom{
+
+.zoom {
     transition: all 0.2s linear;
 }
-.zoom:hover{
+
+.zoom:hover {
     scale: 1.1;
 }
 
@@ -537,7 +611,29 @@
     }
 }
 
+@media (max-width:575.99px) {
+    .justify_center {
+        justify-content: center;
+    }
+}
+
 @media (min-width:576px) {
+    .gap_6 {
+        gap: 6px;
+    }
+
+    .mt_sm_40 {
+        margin-top: 40px;
+    }
+
+    .mt_sm_40 {
+        margin-top: 40px;
+    }
+
+    .mt_sm_80 {
+        margin-top: 80px;
+    }
+
     .orng_underline2::after {
         content: '';
         position: absolute;
@@ -552,8 +648,18 @@
         display: block;
     }
 
-    .gap_6 {
-        gap: 6px;
+    .slider_content_box {
+        max-width: 307px;
+    }
+
+    .position_prev {
+        top: 55%;
+        left: 0;
+    }
+
+    .position_next {
+        top: 55%;
+        right: 0;
     }
 }
 
@@ -577,6 +683,11 @@
         padding-top: 98px;
     }
 
+    .py_md_60_50 {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
     .mb_14 {
         margin-bottom: 14px;
     }
@@ -589,12 +700,28 @@
         margin-bottom: 20px;
     }
 
+    .mb_md_40 {
+        margin-bottom: 40px;
+    }
+
     .mt_md_50 {
         margin-top: 50px;
     }
 
     .mt_md_80 {
         margin-top: 80px;
+    }
+
+    .mt_md_21 {
+        margin-top: 21px;
+    }
+
+    .mt_md_22 {
+        margin-top: 22px;
+    }
+
+    .mt_md_38 {
+        margin-top: 38px;
     }
 
     .max_w_565 {
@@ -647,6 +774,11 @@
         filter: blur(74px);
     }
 
+    .position_clientImg {
+        top: 8%;
+        left: 34%;
+    }
+
     .lh-md-25 {
         line-height: 25px;
     }
@@ -665,6 +797,10 @@
 
     .lh-md-62 {
         line-height: 62px;
+    }
+
+    .slider_content_box {
+        max-width: 357px;
     }
 }
 
@@ -685,7 +821,8 @@
     .max_w_20 {
         max-width: 20px;
     }
-    .red_box{
+
+    .red_box {
         padding: 10px;
     }
 
@@ -705,6 +842,18 @@
 
     .max_w_499 {
         max-width: 499px;
+    }
+
+    .ml_lg_68 {
+        margin-left: 68px;
+    }
+
+    .mr_lg_72 {
+        margin-right: 72px;
+    }
+
+    .mb_lg_45 {
+        margin-bottom: 45px;
     }
 
     .mt_11 {
@@ -741,6 +890,11 @@
         padding-bottom: 160px;
     }
 
+    .py_lg_80 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
     .py_lg_100 {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -756,6 +910,10 @@
 
     .lh-lg-29 {
         line-height: 29px;
+    }
+
+    .lh-lg-25 {
+        line-height: 25px;
     }
 
     .orng_underline2::after {
@@ -775,5 +933,15 @@
 
     .red_box {
         transform: translateY(50%);
+    }
+}
+
+@media (min-width:1200px) {
+    .position_prev {
+        left: 4%;
+    }
+
+    .position_next {
+        right: 6%;
     }
 }

@@ -24,3 +24,15 @@ $('.theam_slider').slick({
     responsive: [
     ]
 });
+$('.client_slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: ".prev",
+    nextArrow: ".next",
+    responsive: [
+    ]
+});
+
