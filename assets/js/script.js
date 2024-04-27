@@ -57,4 +57,9 @@ window.addEventListener("scroll", function () {
 topBtn.addEventListener("click", function () {
     document.documentElement.scrollTop = 0;
 });
+// ===========preloder
+const Preload = document.getElementById("preload")
+setTimeout(() => {
+    Preload.classList.add("d-none")
+}, "2000");
 
