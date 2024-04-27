@@ -2,22 +2,25 @@
     --fs-16: 14px;
     --fs16: 14px;
     --fs-20: 16px;
-    --fs-22: 22px;
+    --fs-22: 18px;
     --fs-24: 24px;
     --fs-40: 28px;
     --fs-52: 32px;
     /* color */
     --clr-black: #000000;
-    --clr-white:#FFFFFF;
-    --clr-shadowSlider:#00000012;
+    --clr-white: #FFFFFF;
+    --clr-shadowSlider: #00000012;
+    --clr-shadawBlack: #0000000A;
+    --clrborderBlack: #00000008;
     --clr-black10: #E6E6E6;
     --clr-lightWhite: #FAFAFA;
     --clr-lightRed: #F36A3E;
+    --clr-borderRed: #F36A3E66;
     --clr-lightBlack: #010101;
     --clr-footerBlack: #070707;
     --clr-greyWhite: #F9F9F9;
     --clr-lightWhite20: #383838;
-    --clr-black20:#CCCCCC;
+    --clr-black20: #CCCCCC;
 }
 
 .color-lightwhite20 {
@@ -79,6 +82,7 @@
 @media (min-width:768px) {
     :root {
         --fs-16: 16px;
+        --fs-22: 22px;
         --fs-24: 20px;
         --fs-52: 40px;
         --fs-40: 30px;

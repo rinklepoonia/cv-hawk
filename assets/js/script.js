@@ -22,7 +22,15 @@ $('.theam_slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
-    ]
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },]
 });
 $('.client_slider').slick({
     dots: false,
