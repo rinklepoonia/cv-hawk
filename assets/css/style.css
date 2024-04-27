@@ -943,6 +943,10 @@
 }
 
 @media (min-width:992px) {
+    .opacity-90 {
+        opacity: 90%;
+    }
+
     .max_w_524 {
         max-width: 524px;
     }
