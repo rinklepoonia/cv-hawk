@@ -457,7 +457,8 @@
 .mb_30 {
     margin-bottom: 30px;
 }
-.py_100_10{
+
+.py_100_10 {
     padding-top: 100px;
     padding-bottom: 10px;
 }
@@ -557,7 +558,7 @@
 }
 
 .footer_rowGap_30 {
-    row-gap: 30px;
+    row-gap: 20px;
 }
 
 .border_bottom {
@@ -716,6 +717,10 @@
 }
 
 @media (min-width:768px) {
+    .footer_rowGap_30 {
+        row-gap: 30px;
+    }
+
     .hero_btn {
         padding: 17px 38px;
     }
@@ -966,7 +971,8 @@
         padding-top: 165px;
         padding-bottom: 160px;
     }
-    .py_lg_160{
+
+    .py_lg_160 {
         padding-top: 160px;
         padding-bottom: 160px;
     }
