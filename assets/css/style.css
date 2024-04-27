@@ -131,7 +131,7 @@
 }
 
 .hero_btn {
-    padding: 17px 38px;
+    padding: 12px 23px;
     border-radius: 41px;
     border: 1px solid var(--clr-lightRed);
     background: transparent;
@@ -395,7 +395,8 @@
 .gap_10 {
     gap: 10px;
 }
-.position_clientEllip{
+
+.position_clientEllip {
     top: -57px;
     left: 0;
     z-index: -1;
@@ -455,6 +456,10 @@
 
 .mb_30 {
     margin-bottom: 30px;
+}
+.py_100_10{
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -711,9 +716,18 @@
 }
 
 @media (min-width:768px) {
+    .hero_btn {
+        padding: 17px 38px;
+    }
+
     .py_md_120 {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .py_md_120_10 {
+        padding-top: 120px;
+        padding-bottom: 10px;
     }
 
     .py_md_80 {
@@ -952,10 +966,14 @@
         padding-top: 165px;
         padding-bottom: 160px;
     }
-
-    .py_lg_160 {
+    .py_lg_160{
         padding-top: 160px;
         padding-bottom: 160px;
+    }
+
+    .py_lg_160_1 {
+        padding-top: 160px;
+        padding-bottom: 1px;
     }
 
     .py_lg_80 {
