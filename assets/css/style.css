@@ -71,9 +71,9 @@
     line-height: 37px;
 }
 
-/* .lh-47 {
-    line-height: 47px;
-} */
+.lh-41{
+    line-height: 41px;
+}
 
 .lh-53 {
     line-height: 53px;
@@ -103,9 +103,8 @@
 .gap_41 {
     gap: 41px;
 }
-
-.gap_17 {
-    gap: 17px;
+.gap_7{
+    gap: 7px;
 }
 
 .mb_20 {
@@ -164,7 +163,7 @@
 }
 
 .position_orngBall {
-    top: 10%;
+    top: 12%;
     right: 73%;
 }
 
@@ -632,6 +631,9 @@
     .gap_6 {
         gap: 6px;
     }
+    .gap_sm_17 {
+        gap: 17px;
+    }
 
     .mt_sm_40 {
         margin-top: 40px;
@@ -764,7 +766,7 @@
     }
 
     .position_orngBall {
-        top: 35%;
+        top: 33%;
         right: 62%;
     }
 
@@ -808,6 +810,9 @@
 
     .lh-md-62 {
         line-height: 62px;
+    }
+    .lh-md-52{
+        line-height: 52px;
     }
 
     .slider_content_box {
