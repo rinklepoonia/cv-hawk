@@ -200,7 +200,7 @@
     position: relative;
 }
 
- .nav_links::after {
+.nav_links::after {
     content: "";
     position: absolute;
     width: 0;
@@ -218,7 +218,8 @@
 
 .nav_links:hover {
     color: var(--clr-lightRed);
-} 
+}
+
 .nav_links1 {
     --c: var(--clr-lightRed);
     --s: .15em;
@@ -236,6 +237,10 @@
 .nav_links1:hover {
     --_p: 100%;
     color: var(--c);
+}
+
+.hover:hover svg path {
+    fill: var(--clr-lightRed);
 }
 
 .slick-dots li.slick-active {
