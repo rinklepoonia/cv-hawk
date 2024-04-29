@@ -196,24 +196,17 @@
     right: 43%;
 }
 
-.nav_links {
-    position: relative;
-}
-
-.nav_links::after {
-    content: "";
+.orng_underline::after {
+    content: '';
     position: absolute;
-    width: 0;
-    height: 2px;
-    background: var(--clr-lightRed);
-    left: 50%;
-    transform: translatex(-50%);
-    bottom: 0;
-    transition: all 0.1s linear;
-}
-
-.nav_links:hover::after {
+    background-image: url(../images/png/ornge-bottom-line.png);
+    max-width: 345px;
     width: 100%;
+    min-height: 11px;
+    left: 0;
+    bottom: -5px;
+    background-size: 241px 9px;
+    background-repeat: no-repeat;
 }
 
 .nav_links:hover {
@@ -426,7 +419,7 @@
 }
 
 .slider_content_box {
-    box-shadow: 0px 18px 59px 0px var(--clr-shadowSlider);
+    box-shadow: 0px 18px 24px 0px var(--clr-shadowSlider);
     background: var(--clr-white);
     max-width: 323px;
     padding: 15px 18px;
@@ -569,7 +562,9 @@
 }
 
 /* ==================footer============ */
-
+.gap_2{
+    gap: 2px;
+}
 .py_20 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -602,7 +597,7 @@
 .topBtn {
     width: 40px;
     height: 40px;
-    background: var(--clr-black);
+    background: var(--clr-lightRed);
     border-radius: 50%;
     position: fixed;
     bottom: 3%;
@@ -612,7 +607,7 @@
     transition: all 300ms linear;
     z-index: 1;
     transition: all 0.4s ease-in-out;
-    box-shadow: 0px 3px 15px 3px var(--clr-white);
+    box-shadow: 0px 3px 15px 3px var(--clr-lightRed);
 }
 
 .topBtn.show {
@@ -621,7 +616,7 @@
 
 .topBtn:hover {
     box-shadow: 0px 3px 15px 3px var(--clr-white);
-    scale: 1.3;
+    scale: 1.2;
 }
 
 .cross span:nth-child(1) {

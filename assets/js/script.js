@@ -23,6 +23,15 @@ $('.theam_slider').slick({
     slidesToScroll: 1,
     responsive: [
         {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
             breakpoint: 576,
             settings: {
                 slidesToShow: 2,
