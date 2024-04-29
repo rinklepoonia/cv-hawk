@@ -41,9 +41,12 @@
     <div id="preload"
         class="min-vh-100 w-100 h-100 d-flex align-items-center justify-content-center bg-black z-3 position-fixed start-0 top-0">
         <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="./assets/images/svg/footer-logo.svg" alt="footer-logo">
+            <img class="imgggg" src="./assets/images/svg/footer-logo.svg" alt="footer-logo">
+            <div class="loader"></div>
         </div>
+
     </div>
+   
     <header class="min_vh_100 d-flex flex-column">
         <nav class="blank">
             <div class="container_1140">
@@ -64,7 +67,8 @@
                                 class="ff_rubik fw-normal text-16 lh-19 color-black nav_links position-relative grey_underline">We’ll
                                 help you</a></li>
                         <li><a href="#testimonils" onclick="openNav()"
-                                class="ff_rubik fw-normal text-16 lh-19 color-black nav_links position-relative">Testimonials</a></li>
+                                class="ff_rubik fw-normal text-16 lh-19 color-black nav_links position-relative">Testimonials</a>
+                        </li>
                         <li><button
                                 class="ff_rubik fw-semibold text-16 lh-19 color-lightWhite comn_btn bg_lightRed d-sm-none d-block">Get
                                 in
@@ -84,7 +88,7 @@
                 </div>
             </div>
         </nav>
-        <div class="position-absolute position_page1 d-md-block d-none"><img class="w-100"
+        <div class="position-absolute position_page1 d-md-block d-none"><img class="w-100 hero"
                 src="./assets/images/svg/hero-page1.svg" alt="hero-page1"></div>
         <div class="position-absolute position_page2 d-md-block d-none"><img class="w-100"
                 src="./assets/images/svg/hero-page2.svg" alt="hero-page2"></div>
@@ -850,36 +854,39 @@
                                 </li>
                             </ul>
                         </div>
-                            <div class="col-lg-4 col-md-5 col-6 d-flex justify_end">
-                                <div class="ps-0">
-                                    <p class="ff_rubik fw-medium text-16 lh-25 color-lightWhite mb_20">Support
-                                    </p>
-                                    <div class="hover">
-                                        <a href="tel:+4733378901" class="d-flex align-items-center mb_20 gap_6 gap_2">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M12.0179 9.53906L10.4304 9.35781C10.2438 9.33589 10.0546 9.35656 9.87702 9.41826C9.69949 9.47996 9.53825 9.5811 9.40542 9.71406L8.25542 10.8641C6.48116 9.9617 5.03903 8.51957 4.13667 6.74531L5.29292 5.58906C5.56167 5.32031 5.69292 4.94531 5.64917 4.56406L5.46792 2.98906C5.43249 2.68417 5.28617 2.40296 5.05682 2.19897C4.82747 1.99497 4.53111 1.88245 4.22417 1.88281H3.14292C2.43667 1.88281 1.84917 2.47031 1.89292 3.17656C2.22417 8.51406 6.49292 12.7766 11.8242 13.1078C12.5304 13.1516 13.1179 12.5641 13.1179 11.8578V10.7766C13.1242 10.1453 12.6492 9.61406 12.0179 9.53906Z"
-                                                    fill="#FAFAFA" />
-                                            </svg>
-                                            <p
-                                                class="ff_rubik fw_normal text-16 lh-md-25 lh-21 color-lightWhite opacity_90 mb-0 nav_links1 position-relative">
-                                                +012 345 67890</p>
-                                        </a>
-                                    </div>
-                                    <div class="hover">
-                                        <a href="mailto:someone@example.com" class="d-flex align-items-center mb_20 gap_6 gap_2">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z"
-                                                    fill="#FAFAFA" />
-                                            </svg>
-                                            <p
-                                                class="ff_rubik fw_normal text-16 lh-md-25 lh-21 color-lightWhite opacity_90 mb-0 nav_links1 position-relative">
-                                                Cvhawk@gmail.com</p>
-                                        </a>
-                                    </div>
+                        <div class="col-lg-4 col-md-5 col-6 d-flex justify_end">
+                            <div class="ps-0">
+                                <p class="ff_rubik fw-medium text-16 lh-25 color-lightWhite mb_20">Support
+                                </p>
+                                <div class="hover">
+                                    <a href="tel:+4733378901" class="d-flex align-items-center mb_20 gap_6 gap_2">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0179 9.53906L10.4304 9.35781C10.2438 9.33589 10.0546 9.35656 9.87702 9.41826C9.69949 9.47996 9.53825 9.5811 9.40542 9.71406L8.25542 10.8641C6.48116 9.9617 5.03903 8.51957 4.13667 6.74531L5.29292 5.58906C5.56167 5.32031 5.69292 4.94531 5.64917 4.56406L5.46792 2.98906C5.43249 2.68417 5.28617 2.40296 5.05682 2.19897C4.82747 1.99497 4.53111 1.88245 4.22417 1.88281H3.14292C2.43667 1.88281 1.84917 2.47031 1.89292 3.17656C2.22417 8.51406 6.49292 12.7766 11.8242 13.1078C12.5304 13.1516 13.1179 12.5641 13.1179 11.8578V10.7766C13.1242 10.1453 12.6492 9.61406 12.0179 9.53906Z"
+                                                fill="#FAFAFA" />
+                                        </svg>
+                                        <p
+                                            class="ff_rubik fw_normal text-16 lh-md-25 lh-21 color-lightWhite opacity_90 mb-0 nav_links1 position-relative">
+                                            +012 345 67890</p>
+                                    </a>
+                                </div>
+                                <div class="hover">
+                                    <a href="mailto:someone@example.com"
+                                        class="d-flex align-items-center mb_20 gap_6 gap_2">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z"
+                                                fill="#FAFAFA" />
+                                        </svg>
+                                        <p
+                                            class="ff_rubik fw_normal text-16 lh-md-25 lh-21 color-lightWhite opacity_90 mb-0 nav_links1 position-relative">
+                                            Cvhawk@gmail.com</p>
+                                    </a>
                                 </div>
                             </div>
+                        </div>
                         <div class="col-md-4">
                             <ul class="ps_lg_0">
                                 <li class="ff_rubik fw-medium text-16 lh-25 color-lightWhite mb_20">Legal
