@@ -642,9 +642,9 @@
 
 .loader {
     margin: auto;
-    border: 5px solid #EAF0F6;
+    border: 5px solid var(--clr-loderWhite);
     border-radius: 50%;
-    border-top: 5px solid #FF7A59;
+    border-top: 5px solid var(--clr-loderOrange);
     width: 30px;
     height: 30px;
     animation: spinner 4s linear infinite;
