@@ -3,7 +3,7 @@
     --fs16: 14px;
     --fs-20: 16px;
     --fs-22: 18px;
-    --fs-24: 24px;
+    --fs-24: 20px;
     --fs-40: 28px;
     --fs-52: 32px;
     /* color */
@@ -15,14 +15,14 @@
     --clr-black10: #E6E6E6;
     --clr-lightWhite: #FAFAFA;
     --clr-lightRed: #F36A3E;
-    --clr-loderOrange:#FF7A59;
+    --clr-loderOrange: #FF7A59;
     --clr-borderRed: #F36A3E66;
     --clr-lightBlack: #010101;
     --clr-footerBlack: #070707;
     --clr-greyWhite: #F9F9F9;
     --clr-lightWhite20: #383838;
     --clr-black20: #CCCCCC;
-    --clr-loderWhite:#EAF0F6;
+    --clr-loderWhite: #EAF0F6;
 }
 
 .color-lightwhite20 {
@@ -85,7 +85,6 @@
     :root {
         --fs-16: 16px;
         --fs-22: 22px;
-        --fs-24: 20px;
         --fs-52: 40px;
         --fs-40: 30px;
     }
@@ -94,9 +93,6 @@
 @media (min-width:992px) {
     :root {
         --fs16: 16px;
-        /* --fs-16: 16px; */
-        /* --fs-20: 20px; */
-        /* --fs-22: 22px; */
         --fs-24: 24px;
         --fs-40: 40px;
         --fs-52: 52px;
