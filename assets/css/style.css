@@ -229,6 +229,26 @@
     transition: all 0.2s linear;
 }
 
+.hover::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    background: var(--clr-lightRed);
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4px;
+    transition: all 0.2s linear;
+}
+
+.hover:hover::after {
+    width: 100%;
+}
+
+.hover:hover {
+    color: var(--clr-lightRed);
+}
+
 .hover:hover .nav_links1::after {
     width: 100%;
 }
