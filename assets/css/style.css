@@ -209,27 +209,32 @@
     background-repeat: no-repeat;
 }
 
+.nav_links {
+    transition: all 0.1s linear;
+}
+
 .nav_links:hover {
     color: var(--clr-lightRed);
 }
 
-.nav_links1 {
-    --c: var(--clr-lightRed);
-    --s: .15em;
-    line-height: 1.1em;
-    padding-bottom: calc(2.1*var(--s));
-    background:
-        conic-gradient(from 135deg at top, var(--c) 90deg, #0000 0) left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
-        conic-gradient(from -45deg at bottom, var(--c) 90deg, #0000 0) left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
-    -webkit-mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0) 0/var(--_p, 0%) padding-box no-repeat;
-    transition: .2s;
+.nav_links1::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    background: var(--clr-lightRed);
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4px;
+    transition: all 0.2s linear;
 }
 
-.nav_links1:hover {
-    --_p: 100%;
-    color: var(--c);
+.hover:hover .nav_links1::after {
+    width: 100%;
+}
+
+.hover:hover .nav_links1 {
+    color: var(--clr-lightRed);
 }
 
 .hover:hover svg path {
@@ -553,12 +558,13 @@
     background: var(--clr-lightWhite);
     border-radius: 41px;
     border: 2px solid transparent;
-    transition: all 0.1s linear;
+    transition: all 0.2s linear;
 }
 
 .red_box_btn:hover {
-    background: var(--clr-black10);
-    scale: 0.9;
+    background: var(--clr-lightRed);
+    color: var(--clr-white);
+    border: 2px solid var(--clr-white);
 }
 
 /* ==================footer============ */
